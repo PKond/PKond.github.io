@@ -34,3 +34,57 @@ td.imdb{
 td{
   margin:80px;
 }
+
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  color: black;
+  font-weight: 900;
+
+  /* padding: 8px 16px;*/
+}
+
+a:hover {
+  background-color: white;
+  color: black;
+}
+
+.return{
+    position:absolute;
+    background-color:#686868;
+    box-sizing:border-box;
+    border-style:solid;
+    border-color:white;
+    border-width:5px;
+
+    left:64px;
+    top:470px;
+
+}
+
+
+@media screen and (max-width: 598px){
+      .container >div{
+        font-size:16px;
+      }
+  }
+
+@media screen and (max-width: 429px){
+        .container >div{
+          font-size:14px;
+        }
+    }
+
+@media screen and (max-width: 327px){
+          .container >div{
+            font-size:12px;
+          }
+      }
+
+@media screen and (max-width: 297px){
+            .container >div{
+              font-size:10px;
+            }
+        }
