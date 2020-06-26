@@ -52,6 +52,16 @@ a:hover {
   color: black;
 }
 
+.here-1{
+  @extend a;
+  color: black;
+}
+
+.here-2{
+  @extend a;
+  color:red;
+}
+
 #one {
   top: 8px;
   left: 54px;

@@ -33,7 +33,7 @@ li {
   margin: 15px;
 }
 
-a {
+a, .here-2, .here-1 {
   text-decoration: none;
   display: inline-block;
   text-align: center;
@@ -42,9 +42,17 @@ a {
   /* padding: 8px 16px;*/
 }
 
-a:hover {
+a:hover, .here-2:hover, .here-1:hover {
   background-color: white;
   color: black;
+}
+
+.here-1 {
+  color: black;
+}
+
+.here-2 {
+  color: red;
 }
 
 #one {
