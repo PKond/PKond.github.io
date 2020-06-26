@@ -25,11 +25,12 @@
     color:white;
 }
 
-div {
-    h3{
+div{
+   h3{
         text-transform: uppercase;
         font-weight: 900;
         text-align:center;
+      }
 }
 
 li {
@@ -51,24 +52,11 @@ a:hover {
   color: black;
 }
 
-.return{
-    position:absolute;
-    background-color:#686868;
-    box-sizing:border-box;
-    border-style:solid;
-    border-color:white;
-    border-width:5px;
-
-    left:64px;
-    top:390px;
-}
-
 #one {
   top: 8px;
   left: 54px;
  margin-left:10px;
  padding:5px;
-
 }
 
 #two  {
