@@ -33,16 +33,15 @@ li {
   margin: 15px;
 }
 
-a, .here-2, .here-1 {
+a, .here-3, .here-2, .here-1 {
   text-decoration: none;
   display: inline-block;
   text-align: center;
   color: black;
   font-weight: 900;
-  /* padding: 8px 16px;*/
 }
 
-a:hover, .here-2:hover, .here-1:hover {
+a:hover, .here-3:hover, .here-2:hover, .here-1:hover {
   background-color: white;
   color: black;
 }
@@ -53,6 +52,10 @@ a:hover, .here-2:hover, .here-1:hover {
 
 .here-2 {
   color: red;
+}
+
+.here-3 {
+  color: yellow;
 }
 
 #one {
@@ -80,7 +83,6 @@ a:hover, .here-2:hover, .here-1:hover {
   bottom: 8px;
   right: 16px;
   margin-bottom: 10px;
-  /*margin-left:700px;*/
   padding: 5px;
 }
 

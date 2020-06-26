@@ -43,8 +43,6 @@ a {
   text-align: center;
   color: black;
   font-weight: 900;
-
-  /* padding: 8px 16px;*/
 }
 
 a:hover {
@@ -62,6 +60,10 @@ a:hover {
   color:red;
 }
 
+.here-3{
+  @extend a;
+  color:yellow;
+}
 #one {
   top: 8px;
   left: 54px;
@@ -86,7 +88,6 @@ a:hover {
 #four {
   bottom: 8px;
   right: 16px;
- margin-bottom:10px;
- /*margin-left:700px;*/
- padding:5px;
+  margin-bottom:10px;
+  padding:5px;
 }
