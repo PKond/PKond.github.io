@@ -33,6 +33,20 @@ li {
   margin: 15px;
 }
 
+a {
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  color: black;
+  font-weight: 900;
+  /* padding: 8px 16px;*/
+}
+
+a:hover {
+  background-color: white;
+  color: black;
+}
+
 #one {
   top: 8px;
   left: 54px;
