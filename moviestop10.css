@@ -82,11 +82,27 @@ a:hover {
       .container >div{
         font-size:16px;
       }
+
+      .lg-view{
+        display:none;
+      }
+
+      .sm-view{
+        display:inline-block;
+      }
   }
 
 @media screen and (max-width: 429px){
         .container >div{
           font-size:14px;
+        }
+
+        .lg-view{
+          display:none;
+        }
+
+        .sm-view{
+          display:inline-block;
         }
     }
 
