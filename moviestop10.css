@@ -69,6 +69,14 @@ a:hover {
   margin-left:30%;
 }
 
+.lg-view {
+    display:inline-block;
+}
+
+.sm-view{
+    display:none;
+}
+
 
 @media screen and (max-width: 598px){
       .container >div{
@@ -86,10 +94,26 @@ a:hover {
           .container >div{
             font-size:12px;
           }
-      }
+
+          .lg-view{
+            display:none;
+          }
+
+          .sm-view{
+            display:inline-block;
+          }
+}
 
 @media screen and (max-width: 297px){
             .container >div{
               font-size:10px;
             }
-        }
+
+            .lg-view{
+              display:none;
+            }
+
+            .sm-view{
+              display:inline-block;
+            }
+}
