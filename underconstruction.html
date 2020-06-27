@@ -42,6 +42,24 @@
 		h1{
 			font-weight:900;
 		}
+
+		.lg-view{
+				display:inline-block;
+		 }
+
+	 .sm-view{
+			display:none;
+		}
+
+		@media screen and (max-width: 600px){
+				.lg-view{
+		     		display:none;
+		     }
+
+	     .sm-view{
+				 	display:inline-block;
+	    	}
+		}
 		</style>
 </head>
 
@@ -59,7 +77,8 @@
 
 
 <a href="index.html" class="btn btn-secondary fixed-top">
-		Return to home page!
+		<span class="lg-view">Return to home page!</span>
+		<span class="sm-view">Return!</span>
 </a>
 
 </body>
